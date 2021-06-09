@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://bootswatch.com/4/litera/bootstrap.css">
+    <title>User form</title>
+  </head>
+  <body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 mx-auto">
+                <h1>User Form</h1>
+                <form>
+                    <div class="form-group">
+                        <label>Name</label>
+                        <input type="text" id="name" placeholder="Name" class="form-control">
+                        <div class="invalid-feedback">
+                            Name must be between 2 and 10 characters
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Zipcode</label>
+                        <input type="text" id="zip" placeholder="Zipcode" class="form-control">
+                        <div class="invalid-feedback">
+                            Enter a valid Zipcode
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="text" id="email" placeholder="Email" class="form-control">
+                        <div class="invalid-feedback">
+                            Enter a valid Email
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Phone Number</label>
+                        <input type="text" id="phone" placeholder="Phone Number" class="form-control">
+                        <div class="invalid-feedback">
+                            Enter a valid Phone Number
+                        </div>
+                    </div>
+                    <input type="submit" value="Submit" class="btn btn-primary my-2 btn-block">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+
+    <script src="app.js"></script>
+    
+  </body>
+</html>
